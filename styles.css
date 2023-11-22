@@ -3,6 +3,7 @@ body {
     height: 900px;
     font-family: 'Play', sans-serif;
     font-size: 20px;
+    background: url("https://foni.club/uploads/posts/2023-02/1675612988_foni-club-p-fon-kosmosa-2d-iz-igr-10.jpg");
 }
 
 p {
@@ -36,6 +37,7 @@ a:hover {
     font-weight: bold;
     color: #fafaff;
     font-size: 18px;
+    border-top: 5px solid #0000009f;
 }
 
 .text {
