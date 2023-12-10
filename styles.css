@@ -12,10 +12,14 @@ p {
 
 a {
     line-height: 28px;
+    text-decoration: none;
 }
 
-a:hover {
+ul a:hover {
     color: rgb(0, 0, 0);
+    text-decoration: underline;
+    text-decoration-color: yellow;
+    cursor: pointer;
 }
 
     .desc {
