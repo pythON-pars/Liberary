@@ -1,9 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Spectral+SC:ital,wght@1,200&display=swap');
+
 body {
     background-color: rgb(46, 46, 46);
     height: 900px;
     font-family: 'Play', sans-serif;
     font-size: 20px;
     background: url("https://foni.club/uploads/posts/2023-02/1675612988_foni-club-p-fon-kosmosa-2d-iz-igr-10.jpg");
+    /* background: url("https://www.istockphoto.com/ru/%D0%B2%D0%B5%D0%BA%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F/%D0%B0%D0%B1%D1%81%D1%82%D1%80%D0%B0%D0%BA%D1%82%D0%BD%D1%8B%D0%B9-%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD-%D1%81-%D0%B3%D0%BE%D1%80%D0%B8%D0%B7%D0%BE%D0%BD%D1%82%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%BC%D0%B8-%D0%BB%D0%B8%D0%BD%D0%B8%D1%8F%D0%BC%D0%B8-%D0%B8-%D1%84%D0%B8%D0%BE%D0%BB%D0%B5%D1%82%D0%BE%D0%B2%D1%8B%D0%BC-%D0%B3%D1%80%D0%B0%D0%B4%D0%B8%D0%B5%D0%BD%D1%82%D0%BE%D0%BC-%D0%BC%D0%BE%D0%B4%D0%BD%D1%8B%D0%B9-%D1%84%D0%BE%D0%BD-gm1499934026-521515044"); */
+
 }
 
 p {
@@ -18,12 +23,23 @@ a {
 ul a:hover {
     color: rgb(0, 0, 0);
     text-decoration: underline;
-    text-decoration-color: yellow;
+    text-decoration-color: rgb(0, 0, 0);
     cursor: pointer;
 }
 
-    .desc {
-    padding-right: 20%;
+ul a {
+    font-family: 'Spectral SC', serif;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.desc {
+    background-color: rgb(148, 238, 238);
+    border-radius: 15px;
+    margin-right: 70px;
+    /* padding-bottom: 10px;
+    padding-top: 10px; */
+    padding: 10px;
 }
 
 .title {
@@ -42,6 +58,10 @@ ul a:hover {
     color: #fafaff;
     font-size: 18px;
     border-top: 5px solid #0000009f;
+}
+
+.footer_text a{
+    font-family: 'Permanent Marker', cursive;
 }
 
 .text {
